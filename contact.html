@@ -78,29 +78,30 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
+						<label for="name">
+							Votre nom et prénom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" required id="name" class="form-control" />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
+						<label for="email">
+							Votre adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input type="email" required id="email" class="form-control" placeholder="exemple@email.fr" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="question">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input type="text" required  class="form-control" id="question" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" class="form-control" rows="4" cols="50" placeholder="Taper votre message ici" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button type="submit" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine">
 						Envoyer
 					</button>
 				</form>
@@ -131,17 +132,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://www.twitter.com" target="blank" title="Lien vers Twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://www.facebook.com" target="blank" title="Lien vers facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://dribbble.com" target="blank" title="Lien vers Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="https://www.instagram.com" target="blank" title="Lien vers instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
